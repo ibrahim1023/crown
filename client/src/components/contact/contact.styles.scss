@@ -2,4 +2,10 @@
   text-align: center;
   margin-top: 20%;
   font-size: 40px;
+
+
+  @media screen and (max-width: 800px) {
+    margin-top: 50%;
+    font-size: 30px;
+  }
 }
