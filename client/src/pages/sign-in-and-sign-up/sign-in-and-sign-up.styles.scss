@@ -5,9 +5,17 @@
   margin: 30px auto;
 
   @media screen and (max-width: 800px) {
-    display: grid;
-    grid-template-columns: 1fr;
-    // grid-gap: 5px;
-    // margin-left: 15px;
+    flex-direction: column;
+    width: unset;
+    align-items: center;
+
+    > *:first-child {
+      padding: 10px;
+      margin-bottom: 50px;
+    }
+
+    > *:last-child {
+      padding: 10px
+    }
   }
 }

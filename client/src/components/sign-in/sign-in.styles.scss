@@ -11,17 +11,4 @@
     display: flex;
     justify-content: space-between;
   }
-
-  @media screen and (max-width: 800px) {
-    width: 340px;
-    margin-left: 10px;
-
-    .buttons {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin-left: 70px;
-      margin-bottom: 20px;
-      width: 200px;
-    }
-  }
 }
